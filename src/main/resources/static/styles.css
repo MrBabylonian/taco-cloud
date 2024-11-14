@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+.validationError {
+    color: red;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 5px;
+}
+
+.ingredient-group {
+    border: 1px solid gray;
+}
+
+.submit-taco {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.taco-logo {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 0;
+    display: block;
+}
+
+a:has(> .taco-logo) {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
